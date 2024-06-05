@@ -125,5 +125,15 @@ form button {
 @media (max-width: 600px) {
   .inner-container {
     width: 90%;
+    margin-bottom: 20px;
+  }
+  .messages {
+    margin-bottom: 20px; /* Adjust margin for better spacing */
+  }
+  form input {
+    width: 70%;
+  }
+  form button {
+    width: 20%;
   }
 }
