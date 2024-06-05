@@ -124,6 +124,7 @@ form button {
 
 @media (max-width: 600px) {
   .inner-container {
+    height: 80%;
     width: 90%;
     margin-bottom: 20px;
   }
