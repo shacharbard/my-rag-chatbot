@@ -83,6 +83,7 @@ body {
   text-align: left;
   padding: 10px;
   border-radius: 5px;
+  color: #000000; /* Black text color */
 }
 
 .user-message {
@@ -131,6 +132,10 @@ form button {
   }
   .messages {
     margin-bottom: 20px; /* Adjust margin for better spacing */
+  }
+
+  .bot-message {
+    color: #000000; /* Black text color */
   }
   form input {
     width: 70%;
