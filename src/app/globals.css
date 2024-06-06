@@ -23,16 +23,11 @@ html, body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background: linear-gradient(to right, #4c44e6, #ced8fe); /* Gradient from #5148E6 to #C6D1FE */
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 } 
 
 @layer utilities {
@@ -47,8 +42,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start; 
-  padding-top: 20px;
+  padding-top: 40px;
   box-sizing: border-box; /* Ensure padding doesn't affect the width */
+  background: inherit; /* Inherit background from parent elements */
 }
 
 .inner-container {
@@ -75,7 +71,7 @@ body {
   margin-top: 10px;
   margin-bottom: 30px;
   padding: 10px;
-  border: 1px solid #6953c9;
+  border: 1px solid #6762EA;
   border-radius: 10px;
 }
 
@@ -93,7 +89,7 @@ body {
   text-align: left;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #6953c9; /* Dark blue text color */
+  color: #6762EA; /* Dark blue text color */
   font-weight: 600; 
   padding: 10px;
   border-radius: 5px;
@@ -111,7 +107,7 @@ form input {
   height: 50px;
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid #6953c9;
+  border: 1px solid #6762EA;
   color: black; /* Ensure text color is visible */
 }
 
@@ -120,7 +116,7 @@ form button {
   height: 50px;
   margin-left: 20px;
   border-radius: 10px;
-  background-color: #7f69e2;
+  background-color: #6762EA;
   color: white;
   border: none;
   font-size: 24px; /* Increase the font size for the arrow */
