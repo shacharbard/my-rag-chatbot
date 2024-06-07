@@ -135,7 +135,7 @@ form button {
     color: #000000; /* Black text color */
   }
   .messages {
-    margin-bottom: 20px; /* Adjust margin for better spacing */
+    margin-bottom: 10px; /* Adjust margin for better spacing */
     overflow-y: auto; /* Enable vertical scrolling */
   }
 
