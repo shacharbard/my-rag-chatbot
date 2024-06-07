@@ -135,12 +135,19 @@ form button {
     color: #000000; /* Black text color */
   }
   .messages {
+    height: 50vh; /* Define a fixed height for the messages container */
     margin-bottom: 10px; /* Adjust margin for better spacing */
     overflow-y: auto; /* Enable vertical scrolling */
   }
-
   .bot-message {
     color: #000000; /* Black text color */
+  }
+  .user-message {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #6762EA; /* Dark blue text color */
+    font-weight: 600; 
   }
   form input {
     width: 70%;
