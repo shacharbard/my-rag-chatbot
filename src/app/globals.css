@@ -67,7 +67,7 @@ body {
 
 .messages {
   flex: 1;
-  overflow-y: auto;
+  overflow-y: auto; /* Enable vertical scrolling */
   margin-top: 10px;
   margin-bottom: 30px;
   padding: 10px;
@@ -136,6 +136,7 @@ form button {
   }
   .messages {
     margin-bottom: 20px; /* Adjust margin for better spacing */
+    overflow-y: auto; /* Enable vertical scrolling */
   }
 
   .bot-message {
